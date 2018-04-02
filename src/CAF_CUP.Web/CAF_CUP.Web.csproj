@@ -2684,6 +2684,8 @@
     <Content Include="Views\Shared\_Layout.js" />
     <Content Include="Views\Tenants\Index.js" />
     <Content Include="Views\Tenants\_EditTenantModal.js" />
+    <Content Include="Views\Managers\Index.js" />
+    <Content Include="Views\Managers\_EditUserModal.js" />
     <Content Include="Views\Users\Index.js" />
     <Content Include="Views\Users\_EditUserModal.js" />
     <Content Include="Web.config">
@@ -2727,6 +2729,8 @@
     <Compile Include="Models\Layout\SideBarUserAreaViewModel.cs" />
     <Compile Include="Models\Roles\EditRoleModalViewModel.cs" />
     <Compile Include="Models\Roles\RoleListViewModel.cs" />
+    <Compile Include="Models\Managers\EditManagerModalViewModel.cs" />
+    <Compile Include="Models\Managers\ManagerListViewModel.cs" />
     <Compile Include="Models\Users\EditUserModalViewModel.cs" />
     <Compile Include="Models\Users\UserListViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -2851,6 +2855,8 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Views\Managers\_EditManagerModal.cshtml" />
+    <Content Include="Views\Managers\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
